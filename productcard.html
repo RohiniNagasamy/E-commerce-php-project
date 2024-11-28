@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Product Order Form</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-image: url("grapes.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .container {
+        max-width: 400px;
+        margin: 20px auto;
+        padding: 20px;
+        border-radius: 5px;
+        background-color: #f9f9f9;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
+    }
+
+    .form-group {
+        margin-bottom: 30px;
+    }
+
+    label {
+        display: block;
+        font-weight: bold;
+    }
+
+    input[type="text"],
+    input[type="password"],
+    input[type="email"],
+    input[type="tel"],
+    select,
+    textarea,
+    input[type="file"] {
+        width: 100%;
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+        margin-top: 5px;
+    }
+
+    input[type="submit"] {
+        background-color: #4CAF50;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+        background-color: #45a049;
+    }
+    #top{
+        height: 30px;
+        width: 100%;
+        background-color: rgb(35, 35, 56);
+    }
+</style>
+</head>
+<body>
+<div id="top"></div>
+<div class="container">
+    <h2 style="color: #4CAF50;">product Form</h2>
+    <form action="regcard.php" method="post" enctype="multipart/form-data">
+        <div class="form-group">
+            <label for="username">UserName:</label>
+            <input type="text" id="username" name="username" required>
+        </div>
+        <div class="form-group">
+            <label for="productname">product Name:</label>
+            <input type="text" id="productname" name="productname" required>
+        </div>
+        
+        
+        <div class="form-group">
+            <label for="productimage">product card Image:</label>
+            <input type="file" id="productimage" name="productimage" accept="image/*">
+        </div>
+        <div class="form-group">
+            <label for="des">Price:</label>
+            <input type="text" id="price" name="price" required/>
+        </div>
+        <div class="form-group">
+            <label for="productcategory">Product Category:</label>
+            <select id="productcategory" name="productcategory" required>
+                <option value="">Select Category</option>
+                <option value="foodproducts">Foodproducts</option>
+                <option value="Milk & oil products">Milk & oil products</option>
+                <option value="cattles">cattles</option>
+                <option value="handicrafts">Handicrafts</option>
+                <option value="others">others</option>
+                <!-- Add more categories as needed -->
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="des">Description:</label>
+            <textarea id="description" name="description"  required></textarea>
+        </div>
+        
+        
+        <div class="form-group">
+            <input type="submit" value="Submit">
+        </div>
+    </form>
+</div>
+
+</body>
+</html>

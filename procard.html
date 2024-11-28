@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+       <link rel="stylesheet" href="styres.css">
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <title>Document</title>
+    <style>
+      .checked {
+  color: orange;
+}
+        body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+     
+    }
+        #top{
+        height: 15px;
+        width: 100%;
+        background-color: rgb(35, 35, 56);
+    }
+    .container{
+        position: relative;
+        top: -450px;
+        height: auto;
+        width: 90%;
+        left: 50px;
+        margin: 50px;
+        
+        display: grid;
+  grid-template-columns: auto auto auto;
+  row-gap: 50px;
+  justify-content: space-around;
+  border-radius: 5px;
+       background-color: aliceblue;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
+
+    .productlist{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        height: 450px;
+        width: 350px;
+        text-align: center;
+        border-radius: 5px;
+        background-color: #f9f9f9;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
+        button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  margin-top: 10px;
+
+  
+}
+p{
+    margin-bottom: 10px;
+  }
+    }
+
+    }
+    #na{
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
+        width: 60%;
+     position: relative;
+     left: 15%;
+     margin-top: 20px;
+    }
+    li{
+        display: inline-block;
+        margin: 15px;
+        a{
+            text-decoration: none;
+            color: green;
+        }
+    }
+    .search{
+        display: flex;
+        flex-direction: row;
+        position:relative;
+        top:-50px;
+        height: 200px;
+        justify-content: end;
+        align-items: center;
+        width: 600px;
+        input{
+            position: relative;
+            left: -500px;
+            justify-content: center;
+            width: 300px;
+            height: 30px;
+            margin: 30px;
+           
+        }
+        button{
+            //color: #ffffff;
+            background: #32cd32;
+            position: relative;
+            left: -550px;
+            width: 80px;
+            height: 30px;
+        }
+    }
+    .main{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    
+    </style>
+</head>
+<body>
+   
+    <div id="top"></div>
+   
+    <div id="na" class="nav-top">
+        <ul>
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="index.html#ab">About us</a>
+            </li>
+            <li>
+                <a href="index.html#pr">Products</a>
+            </li>
+            <li>
+                <a href="index.html#sc">Scheme</a>
+            </li>
+            
+            <li>
+                <a href="index.html#se">Services</a>
+            </li>
+            <li>
+                <a href="index.html#co">Contact us</a>
+            </li>
+            <li>
+                <a href="prolog.html">Log in</a>
+            </li>
+            <li>
+                <a href="proreg.html">Register</a>
+            </li>
+        </ul>
+    </div>
+  
+ 
+    <div class="main">
+        <img src="whi.jpg" alt="" height="500px" width="500px">
+    <div class="search">
+      
+      <input type="text">
+      <button onclick="filterProducts()"><img src="search.svg" alt=""></a></a></button>
+    </div>
+</div>
+    <div class="container">
+        <div class="productlist">
+            <img src="apple.jpg" alt="Denim Jeans" width="100%" height="50%">
+  <h1>Apple</h1><br>
+  <p class="price"> &#8377;230 per kg</p>
+  <p>Freshly grown apples</p>
+ 
+  <p><a href="accountdisplay.html" style="text-decoration: none;" ><button>To contact</button></a></p>
+        </div>
+
+        <div class="productlist">
+            <img src="carr.jpg" alt="Denim Jeans" width="100%" height="50%">
+  <h1>Carrot</h1><br>
+  <p class="price"> &#8377;60 per kg</p>
+  <p>Some text about the jeans. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
+ 
+  
+  <p><button>To contact</button></p>
+
+        </div>
+
+        <div class="productlist">
+            <img src="cauli.jpg" alt="Denim Jeans" width="100%" height="50%">
+  <h1>Cauliflower</h1><br>
+  <p class="price"> &#8377;15 per flower</p>
+  <p>Some text about the jeans. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
+  
+  
+  <p><button>To contact</button></p>
+        </div>
+
+        <div class="productlist">
+            <img src="chilli.jpg" alt="Denim Jeans" style="width:100%">
+  <h1>Red chilli</h1><br>
+  <p class="price"> &#8377;120 per kg</p>
+  <p>Some text about the jeans. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
+  
+  
+  <p><button>To contact</button></p>
+        </div>
+
+        <div class="productlist">
+            <img src="garlic.jpg" alt="Denim Jeans" width="100%" height="50%">
+  <h1>Garlic</h1><br>
+  <p class="price"> &#8377;50 per kg</p>
+  <p>Some text about the jeans. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
+  
+  
+  <p><button>To contact</button></p>
+        </div>
+
+        <div class="productlist">
+            <img src="ginger.jpg" alt="Denim Jeans" width="100%" height="50%" >
+  <h1>Ginger</h1><br>
+  <p class="price"> &#8377;200 per kg</p>
+  <p>Some text about the jeans. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
+  <p><button>To contact</button></p>
+        </div>
+        
+        <div class="productlist">
+            <img src="tomato.jpg" alt="Denim Jeans" width="100%" height="50%">
+  <h1>Tomato</h1><br>
+  <p class="price"> &#8377;20 per kg</p>
+  <p>Some text about the jeans. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
+ 
+  
+  <p><button>To contact</button></p>
+        </div>
+        <div class="productlist">
+            <img src="radish.jpg" alt="Denim Jeans"width="100%" height="50%">
+  <h1>Radish</h1><br>
+  <p class="price"> &#8377;40 per kg</p>
+  <p>Some text about the jeans. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
+  <p><button>To contact</button></p>
+        </div>
+        <div class="productlist">
+            <img src="beetroot.jpg" alt="Denim Jeans"width="100%" height="50%" >
+  <h1>Beetroot</h1><br>
+  <p class="price"> &#8377;30 per kg</p>
+  <p>Some text about the jeans. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
+  <p><button>To contact</button></p>
+        </div>
+        <div class="productlist">
+            <img src="brinjal.jpg" alt="Denim Jeans" width="100%" height="50%">
+  <h1>Brinjal</h1><br>
+  <p class="price"> &#8377;45 per kg</p>
+  <p>Some text about the jeans. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
+  <p><button>To contact</button></p>
+        </div>
+        <div class="productlist">
+            <img src="greechilli.jpg" alt="Denim Jeans" width="100%" height="50%">
+  <h1>Green chilli</h1><br>
+  <p class="price"> &#8377;35 per kg</p>
+  <p>Some text about the jeans. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
+  <p><button>To contact</button></p>
+        </div>
+        <div class="productlist">
+            <img src="potato.jpg" alt="Denim Jeans" width="100%" height="50%">
+  <h1>Potato</h1><br>
+  <p class="price"> &#8377;30 per kg</p>
+  <p>Some text about the jeans. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
+  <p><button>to contact</button></p>
+        </div>
+       
+        
+
+    </div>
+</body>
+</html>

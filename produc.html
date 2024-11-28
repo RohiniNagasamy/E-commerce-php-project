@@ -1,0 +1,1072 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+       <link rel="stylesheet" href="styres.css">
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <title>Document</title>
+    <style>
+      .checked {
+  color: orange;
+}
+        body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+     
+    }
+        #top{
+        height: 15px;
+        width: 100%;
+        background-color: rgb(35, 35, 56);
+    }
+    .container{
+        position: relative;
+        top: -450px;
+        height: auto;
+        width: 90%;
+        left: 50px;
+        margin: 50px;
+        
+        display: grid;
+  grid-template-columns: auto auto auto;
+  row-gap: 50px;
+  justify-content: space-around;
+  border-radius: 5px;
+       background-color: aliceblue;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
+
+    .productlist{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        height: 450px;
+        width: 350px;
+        text-align: center;
+        border-radius: 5px;
+        background-color: #f9f9f9;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
+        button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  margin-top: 10px;
+
+  
+}
+p{
+    margin-bottom: 10px;
+  }
+    }
+
+    }
+    #na{
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
+        width: 60%;
+     position: relative;
+     left: 15%;
+     margin-top: 20px;
+    }
+    li{
+        display: inline-block;
+        margin: 15px;
+        a{
+            text-decoration: none;
+            color: green;
+        }
+    }
+    .search{
+        display: flex;
+        flex-direction: row;
+        position:relative;
+        top:-50px;
+        height: 200px;
+        justify-content: end;
+        align-items: center;
+        width: 600px;
+        input{
+            position: relative;
+            left: -500px;
+            justify-content: center;
+            width: 300px;
+            height: 30px;
+            margin: 30px;
+           
+        }
+        button{
+            //color: #ffffff;
+            background: #32cd32;
+            position: relative;
+            left: -550px;
+            width: 80px;
+            height: 30px;
+        }
+    }
+    .main{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    
+    </style>
+</head>
+<body>
+   
+    <div id="top"></div>
+   
+    <div id="na" class="nav-top">
+        <ul>
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="index.html#ab">About us</a>
+            </li>
+            <li>
+                <a href="index.html#pr">Products</a>
+            </li>
+            <li>
+                <a href="index.html#sc">Scheme</a>
+            </li>
+            
+            <li>
+                <a href="index.html#se">Services</a>
+            </li>
+            <li>
+                <a href="index.html#co">Contact us</a>
+            </li>
+            <li>
+                <a href="prolog.html">Log in</a>
+            </li>
+            <li>
+                <a href="proreg.html">Register</a>
+            </li>
+        </ul>
+    </div>
+  
+
+    <div class="main">
+        <img src="whi.jpg" alt="" height="500px" width="500px">
+    <div class="search">
+      
+      <input type="text">
+      <button><img src="search.svg" alt=""></a></a></button>
+    </div>
+</div>
+    <div class="container">
+        <div class="productlist" >
+            <img src="sinapp.jpg" alt="Denim Jeans" width="100%" height="50%">
+  <h1>Apple</h1><br>
+  <p class="price"> &#8377;230 per kg</p>
+  <p>Freshly grown apples</p>
+
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star"></span>
+  <span class="fa fa-star"></span>
+  <p><a href="accountdisplay.html" style="text-decoration: none;" ><button id="apple">To contact</button></a></p>
+        </div>
+        <div class="productlist">
+            <img src="cabbage.jpg" alt="Denim Jeans" width="100%" height="50%">
+  <h1>cabbages</h1><br>
+  <p class="price">&#8377;20 per cabbage</p>
+  <p>Freshly grown cabbages.</p>
+ 
+  <span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+<p><button id="cabbage">To contact</button></p>
+
+
+        </div>
+        <div class="productlist">
+            <img src="coconut.jpg" alt="Denim Jeans" width="100%" height="50%">
+  <h1>Coconut</h1><br>
+  <p class="price">&#8377;15 per coconut </p>
+  <p>Tender coconut.</p><br>
+
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star"></span>
+  <span class="fa fa-star"></span>
+  <p><button id="coconut">To contact</button></p>
+
+  
+        </div>
+        <div class="productlist">
+            <img src="coconutoil.jpg" alt="Denim Jeans" width="100%" height="50%">
+  <h1>Coconut oil</h1><br>
+  <p class="price">&#8377;80 per litre </p>
+  <p>Naturally extracted coconut oil.</p>
+
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star"></span>
+  <span class="fa fa-star"></span>
+  
+  <p><button id="coconutoil">To contact</button></p>
+
+        </div>
+        <div class="productlist">
+            <img src="cauli.jpg" alt="Denim Jeans" width="100%" height="50%">
+  <h1>Cauliflower</h1><br>
+  <p class="price">&#8377;10 per flower </p>
+  <p>Freshly grown caulifower.</p>
+  
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star"></span>
+  <span class="fa fa-star"></span>
+  <p><button id="caulifower">To contact</button></p>
+
+        </div>
+
+        <div class="productlist">
+            <img src="corr.jpg" alt="Denim Jeans" width="100%" height="50%">
+  <h1>Corrainder</h1><br>
+  <p class="price">&#8377;10 per bundle </p>
+  <p>Freshly grown corrainder.</p>
+
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star"></span>
+  <span class="fa fa-star"></span>
+  <p><button id="corrainder">To contact</button></p>
+
+        </div>
+        <div class="productlist">
+            <img src="brinjal.jpg" alt="Denim Jeans" width="100%" height="50%">
+  <h1>Brinjal</h1><br>
+  <p class="price">&#8377;50 per kg </p>
+  <p>Freshly grown brinjal.</p>
+
+  <span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star "></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+<p><button id="brinjal">To contact</button></p>
+
+        </div>
+        <div class="productlist">
+            <img src="beetroot.jpg" alt="Denim Jeans" width="100%" height="50%">
+  <h1>beetroot</h1><br>
+  <p class="price">&#8377;40 per kg</p>
+  <p>Freshly grown beetroot.</p>
+ 
+  <span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+<p><button id="beetroot">To contact</button></p>
+
+
+        </div>
+        <div class="productlist">
+            <img src="greechilli.jpg" alt="Denim Jeans" width="100%" height="50%">
+  <h1>Green chili</h1><br>
+  <p class="price">&#8377;15 per kg </p>
+  <p>Freshly grown greechillies.</p>
+
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star"></span>
+  <span class="fa fa-star"></span>
+  
+  <p><button id="greechillies">To contact</button></p>
+
+        </div>
+        <div class="productlist">
+            <img src="radish.jpg" alt="Denim Jeans" width="100%" height="50%">
+  <h1>Radish</h1><br>
+  <p class="price">&#8377;30 per kg </p>
+  <p>Freshly grown radish</p>
+
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star"></span>
+  <span class="fa fa-star"></span>
+  <p><button id="radish">To contact</button></p>
+
+  
+        </div>
+        <div class="productlist">
+            <img src="tomato.jpg" alt="Denim Jeans" width="100%" height="50%">
+  <h1>Tomato</h1><br>
+  <p class="price">&#8377;30 per kg </p>
+  <p>Freshly grown Tomatoes.</p>
+  
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star"></span>
+  <span class="fa fa-star"></span>
+  <p><button id="Tomato">To contact</button></p>
+
+        </div>
+
+        <div class="productlist">
+            <img src="potato.jpg" alt="Denim Jeans" width="100%" height="50%">
+  <h1>Potato</h1><br>
+  <p class="price">&#8377;25 per kg </p>
+  <p>Freshly grown potatoes.</p>
+
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star"></span>
+  <span class="fa fa-star"></span>
+  <p><button id="potato">To contact</button></p>
+
+        </div>
+        <div class="productlist">
+            <img src="poemegra.jpg" alt="Denim Jeans" width="100%" height="50%">
+  <h1>Pomegranate</h1><br>
+  <p class="price">&#8377;150 per kg </p>
+  <p>Freshly grown Pomegranate.</p>
+
+  <span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star "></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+<p><button id="Pomegranate">To contact</button></p>
+
+        </div>
+
+        <div class="productlist">
+            <img src="blackgrape.jpg" alt="Denim Jeans" width="100%" height="50%">
+  <h1>Grapes</h1><br>
+  <p class="price">&#8377;140 per kg</p>
+  <p>Freshly grown grapes.</p>
+ 
+  <span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+<p><button id="grapes">To contact</button></p>
+
+
+        </div>
+
+        <div class="productlist">
+            <img src="guava.jpg" alt="Denim Jeans" width="100%" height="50%">
+  <h1>Guava</h1><br>
+  <p class="price">&#8377;55 per kg </p>
+  <p>Freshly grown guavas.</p>
+
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star"></span>
+  <span class="fa fa-star"></span>
+  <p><button id="guava">To contact</button></p>
+
+  
+        </div>
+
+        <div class="productlist">
+            <img src="watermelon.jpg" alt="Denim Jeans" width="100%" height="50%">
+  <h1>Watermelon</h1><br>
+  <p class="price">&#8377;130 per kg </p>
+  <p>Freshly grown watermelon</p>
+
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star"></span>
+  <span class="fa fa-star"></span>
+  
+  <p><button id="watermelon">To contact</button></p>
+
+        </div>
+
+        <div class="productlist">
+            <img src="jp.jpg" alt="Denim Jeans" width="100%" height="50%">
+  <h1>Jackfruit</h1><br>
+  <p class="price">&#8377;70 per fruitt </p>
+  <p>Freshly grown Jackfruits.</p>
+  
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star"></span>
+  <span class="fa fa-star"></span>
+  <p><button id="Jackfruit">To contact</button></p>
+
+        </div>
+
+        <div class="productlist">
+            <img src="pineapp.jpg" alt="Denim Jeans" width="100%" height="50%">
+  <h1>Pineapple</h1><br>
+  <p class="price">&#8377;25 per kg </p>
+  <p>Freshly grown pineapples.</p>
+
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star"></span>
+  <span class="fa fa-star"></span>
+  <p><button id="pineapples">To contact</button></p>
+
+        </div>
+        <div class="productlist">
+            <img src="countrychicken.jpg" alt="Denim Jeans" width="100%" height="50%">
+  <h1>countrychicken</h1><br>
+  <p class="price">&#8377;350 per chicken </p>
+  <p>healthly grown countrychicken.</p>
+
+  <span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star "></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+<p><button id="countrychicken">To contact</button></p>
+
+        </div>
+
+        <div class="productlist">
+            <img src="cowcow.jpg" alt="Denim Jeans" width="100%" height="50%">
+  <h1>cow</h1><br>
+  <p class="price">&#8377;15000 per cow</p>
+  <p>Healthly grown cow.</p>
+ 
+  <span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+ 
+<p><button id="cow">To contact</button></p>
+
+        </div>
+
+        <div class="productlist">
+            <img src="goatgoat.jpg" alt="Denim Jeans" width="100%" height="50%">
+  <h1>Goat</h1><br>
+  <p class="price">&#8377;8000 per goat </p>
+  <p>Healthly grown goats.</p>
+
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star"></span>
+  <span class="fa fa-star"></span>
+  <p><button id="goat">To contact</button></p>
+
+  
+        </div>
+
+        <div class="productlist">
+            <img src="sheep.jpg" alt="Denim Jeans" width="100%" height="50%">
+  <h1>Sheep</h1><br>
+  <p class="price">&#8377;10000 per kg </p>
+  <p>Healthly grown sheeps</p>
+
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star"></span>
+  <span class="fa fa-star"></span>
+  <p><button id="sheep">To contact</button></p>
+
+  
+        </div>
+
+        <div class="productlist">
+            <img src="egg.jpg" alt="Denim Jeans" width="100%" height="50%">
+  <h1>Egg</h1><br>
+  <p class="price">&#8377;6 per egg </p>
+  <p>Fresh Eggs.</p>
+  
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star"></span>
+  <span class="fa fa-star"></span>
+  <p><button id="egg">To contact</button></p>
+
+        </div>
+
+        <div class="productlist">
+            <img src="milk.jpg" alt="Denim Jeans" width="100%" height="50%">
+  <h1>Milk</h1><br>
+  <p class="price">&#8377;45 per litre </p>
+  <p>Fresh milk.</p>
+
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star"></span>
+  <span class="fa fa-star"></span>
+  <p><button id="milk">To contact</button></p>
+
+        </div>
+        <div class="productlist">
+            <img src="chicken.jpg" alt="Denim Jeans" width="100%" height="50%">
+  <h1>Chicken</h1><br>
+  <p class="price">&#8377;200 per kg </p>
+  <p>Fresh chicken.</p>
+
+  <span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star "></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+<p><button id="chicken">To contact</button></p>
+
+        </div>
+
+        <div class="productlist">
+            <img src="mutton.jpg" alt="Denim Jeans" width="100%" height="50%">
+  <h1>Mutton</h1><br>
+  <p class="price">&#8377;790 per kg</p>
+  <p>Fresh mutton</p>
+ 
+  <span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+ 
+<p><button id="mutton">To contact</button></p>
+
+        </div>
+
+        <div class="productlist">
+            <img src="beef.jpg" alt="Denim Jeans" width="100%" height="50%">
+  <h1>Beef</h1><br>
+  <p class="price">&#8377;165 per kg </p>
+  <p>Fresh beef</p>
+
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star"></span>
+  <span class="fa fa-star"></span>
+  <p><button id="beef">To contact</button></p>
+
+  
+        </div>
+
+        <div class="productlist">
+            <img src="pork'.jpg" alt="Denim Jeans" width="100%" height="50%">
+  <h1>Pork</h1><br>
+  <p class="price">&#8377;355 per kg </p>
+  <p>Fresh pork</p>
+
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star"></span>
+  <span class="fa fa-star"></span>
+  <p><button id="pork">To contact</button></p>
+
+  
+        </div>
+
+        <div class="productlist">
+            <img src="chickenfeed.jpg" alt="Denim Jeans" width="100%" height="50%">
+  <h1>Chicken feed</h1><br>
+  <p class="price">&#8377;70 per kg </p>
+  <p>Fresh chicken feed.</p>
+  
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star"></span>
+  <span class="fa fa-star"></span>
+  <p><button id="chickenfeed">To contact</button></p>
+
+        </div>
+
+        <div class="productlist">
+            <img src="cowfeed.jpg" alt="Denim Jeans" width="100%" height="50%">
+  <h1>Cow feed</h1><br>
+  <p class="price">&#8377;125 per kg </p>
+  <p>Fresh cow feed.</p>
+
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star"></span>
+  <span class="fa fa-star"></span>
+  <p><button id="cowfeed">To contact</button></p>
+
+        </div>
+        <div class="productlist">
+            <img src="aari.jpg" alt="Denim Jeans" width="100%" height="50%">
+  <h1>Aari work</h1><br>
+  <p class="price">&#8377;2000 per blouse(specific)  </p>
+  <p>Handmade aari works .</p>
+
+  <span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star "></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+<p><button id="aari">To contact</button></p>
+
+        </div>
+
+        <div class="productlist">
+            <img src="embroid.jpg" alt="Denim Jeans" width="100%" height="50%">
+  <h1>Embroidery</h1><br>
+  <p class="price">&#8377;1990 per design(specific</p>
+  <p>High quality embroidery works</p>
+ 
+  <span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+ 
+<p><button id="embroidery">To contact</button></p>
+
+        </div>
+
+        <div class="productlist">
+            <img src="purse.jpg" alt="Denim Jeans" width="100%" height="50%">
+  <h1>Purse</h1><br>
+  <p class="price">&#8377;150 per purse </p>
+  <p>colorful handmade purses</p>
+
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star"></span>
+  <span class="fa fa-star"></span>
+  <p><button id="purse">To contact</button></p>
+
+  
+        </div>
+
+        <div class="productlist">
+            <img src="rope.jpg" alt="Denim Jeans" width="100%" height="50%">
+  <h1>Rope</h1><br>
+  <p class="price">&#8377;355 per rope </p>
+  <p>Ropes are made from coconut coir.</p>
+
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star"></span>
+  <span class="fa fa-star"></span>
+  <p><button id="rope">To contact</button></p>
+
+  
+        </div>
+
+        <div class="productlist">
+            <img src="pickles.jpg" alt="Denim Jeans" width="100%" height="50%">
+  <h1>Pickle</h1><br>
+  <p class="price">&#8377;70 per kg </p>
+  <p>Fresh pickles are made from good product.</p>
+  
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star"></span>
+  <span class="fa fa-star"></span>
+  <p><button id="pickle">To contact</button></p>
+
+        </div>
+
+        <div class="productlist">
+            <img src="ricebatter.jpg" alt="Denim Jeans" width="100%" height="50%">
+  <h1>Rice batter</h1><br>
+  <p class="price">&#8377;25 per kg </p>
+  <p>Fresh rice batter.</p>
+
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star"></span>
+  <span class="fa fa-star"></span>
+  <p><button id="ricebatter">To contact</button></p>
+
+        </div>
+        <div class="productlist">
+            <img src="ginger.jpg" alt="Denim Jeans" width="100%" height="50%">
+  <h1>Ginger</h1><br>
+  <p class="price">&#8377;200 per kg </p>
+  <p>Fresh ginger.</p>
+
+  <span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star "></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+<p><button id="ginger">To contact</button></p>
+
+        </div>
+
+        <div class="productlist">
+            <img src="garlicpair.jpg" alt="Denim Jeans" width="100%" height="50%">
+  <h1>Garlic</h1><br>
+  <p class="price">&#8377;90 per kg</p>
+  <p>Fresh garlic</p>
+ 
+  <span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+<p><button id="garlic">To contact</button></p>
+
+
+        </div>
+
+        <div class="productlist">
+            <img src="mint.jpg" alt="Denim Jeans" width="100%" height="50%">
+  <h1>Mint</h1><br>
+  <p class="price">&#8377;15 per bundle </p>
+  <p>Fresh mint </p>
+
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star"></span>
+  <span class="fa fa-star"></span>
+  <p><button id="mint">To contact</button></p>
+
+  
+        </div>
+
+        <div class="productlist">
+            <img src="iceapple.jpg" alt="Denim Jeans" width="100%" height="50%">
+  <h1>Iceapple</h1><br>
+  <p class="price">&#8377;55 per kg </p>
+  <p>Fresh iceapple</p>
+
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star"></span>
+  <span class="fa fa-star"></span>
+  <p><button id="iceapple">To contact</button></p>
+
+  
+        </div>
+
+        <div class="productlist">
+            <img src="orange.jpg" alt="Denim Jeans" width="100%" height="50%">
+  <h1>Orange</h1><br>
+  <p class="price">&#8377;90 per kg </p>
+  <p>Fresh orange.</p>
+  
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star"></span>
+  <span class="fa fa-star"></span>
+  <p><button id="orange">To contact</button></p>
+
+        </div>
+
+        <div class="productlist">
+            <img src="curry.jpg" alt="Denim Jeans" width="100%" height="50%">
+  <h1>Curry leaves</h1><br>
+  <p class="price">&#8377;15 per bundle</p>
+  <p>Fresh curry leaves.</p>
+
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star"></span>
+  <span class="fa fa-star"></span>
+  <p><button id="curryleaves">To contact</button></p>
+
+        </div>
+        <div class="productlist">
+            <img src="paneer.jpg" alt="Denim Jeans" width="100%" height="50%">
+  <h1>Paneer</h1><br>
+  <p class="price">&#8377;100 per kg </p>
+  <p>Fresh paneer.</p>
+
+  <span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star "></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+<p><button id="paneer">To contact</button></p>
+
+        </div>
+
+        <div class="productlist">
+            <img src="honey.jpg" alt="Denim Jeans" width="100%" height="50%">
+  <h1>Honey</h1><br>
+  <p class="price">&#8377;150 per kg</p>
+  <p>Fresh honey</p>
+ 
+  <span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+<p><button id="honey">To contact</button></p>
+
+
+        </div>
+
+        <div class="productlist">
+            <img src="grouoil.jpg" alt="Denim Jeans" width="100%" height="50%">
+  <h1>Groundnut oil</h1><br>
+  <p class="price">&#8377;165 per litre </p>
+  <p>Fresh groundnut oil</p>
+
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star"></span>
+  <span class="fa fa-star"></span>
+  
+  <p><button id="groundnutoil">To contact</button></p>
+
+        </div>
+
+        <div class="productlist">
+            <img src="gingrlyoil.jpg" alt="Denim Jeans" width="100%" height="50%">
+  <h1>Gingely oil</h1><br>
+  <p class="price">&#8377;200 per litre </p>
+  <p>Fresh gingely oil.</p>
+
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star"></span>
+  <span class="fa fa-star"></span>
+  <p><button id="gingelyoil">To contact</button></p>
+
+  
+        </div>
+
+        <div class="productlist">
+            <img src="curd.jpg" alt="Denim Jeans" width="100%" height="50%">
+  <h1>Curd</h1><br>
+  <p class="price">&#8377;70 per kg </p>
+  <p>Fresh curd.</p>
+  
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star"></span>
+  <span class="fa fa-star"></span>
+  <p><button id="curd">To contact</button></p>
+
+        </div>
+
+        <div class="productlist">
+            <img src="ghee.jpg" alt="Denim Jeans" width="100%" height="50%">
+  <h1>Ghee</h1><br>
+  <p class="price">&#8377;225 per litre </p>
+  <p>Fresh ghee.</p>
+
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star"></span>
+  <span class="fa fa-star"></span>
+  <p><button id="ghee">To contact</button></p>
+
+        </div>
+        <div class="productlist">
+            <img src="sf.jpg" alt="Denim Jeans" width="100%" height="50%">
+  <h1>Starfruit</h1><br>
+  <p class="price">&#8377;200 per kg </p>
+  <p>Fresh starfruit.</p>
+
+  <span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star "></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+<p><button id="starfruit">To contact</button></p>
+
+        </div>
+
+        <div class="productlist">
+            <img src="df.jpg" alt="Denim Jeans" width="100%" height="50%">
+  <h1>Dragon fruit</h1><br>
+  <p class="price">&#8377;260 per kg</p>
+  <p>Fresh dragon fruit</p>
+ 
+  <span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+<p><button id="dragonfruit">To contact</button></p>
+
+
+        </div>
+
+        <div class="productlist">
+            <img src="sweepot.jpg" alt="Denim Jeans" width="100%" height="50%">
+  <h1>Sweet potatoes</h1><br>
+  <p class="price">&#8377;40 per kg </p>
+  <p>Fresh sweet potatoes.</p>
+
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star"></span>
+  <span class="fa fa-star"></span>
+  
+  <p><button id="sweetpotato">To contact</button></p>
+
+        </div>
+
+        <div class="productlist">
+            <img src="snacks.jpg" alt="Denim Jeans" width="100%" height="50%">
+  <h1>Snacks</h1><br>
+  <p class="price">&#8377;160 per kg </p>
+  <p>Fresh home made snacks.</p>
+
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star"></span>
+  <span class="fa fa-star"></span>
+  
+  <p><button id="snacks">To contact</button></p>
+
+        </div>
+
+        <div class="productlist">
+            <img src="ladfin.jpg" alt="Denim Jeans" width="100%" height="50%">
+  <h1>Ladys finger</h1><br>
+  <p class="price">&#8377;30 per kg </p>
+  <p>Fresh ladys finger.</p>
+  
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star"></span>
+  <span class="fa fa-star"></span>
+  <p><button id="ladysfinger">To contact</button></p>
+
+        </div>
+
+        <div class="productlist">
+            <img src="bananabunch.jpg" alt="Denim Jeans" width="100%" height="50%">
+  <h1>Banana</h1><br>
+  <p class="price">&#8377;7 per banana </p>
+  <p>Fresh banana.</p>
+
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star"></span>
+  <span class="fa fa-star"></span>
+  <p><button id="banana">To contact</button></p>
+
+        </div>
+        <div class="productlist">
+            <img src="sweat.jpg" alt="Denim Jeans" width="100%" height="50%">
+  <h1>Sweater</h1><br>
+  <p class="price">&#8377;600 per sweater </p>
+  <p>sweaters are made from high quality wools.</p>
+
+  <span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star "></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+<p><button id="sweater">To contact</button></p>
+
+        </div>
+
+        <div class="productlist">
+            <img src="mutton.jpg" alt="Denim Jeans" width="100%" height="50%">
+  <h1>Mutton</h1><br>
+  <p class="price">&#8377;790 per kg</p>
+  <p>Fresh mutton</p>
+ 
+  <span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+<p><button id="">To contact</button></p>
+
+
+        </div>
+
+        <div class="productlist">
+            <img src="beef.jpg" alt="Denim Jeans" width="100%" height="50%">
+  <h1>Beef</h1><br>
+  <p class="price">&#8377;165 per kg </p>
+  <p>Fresh beef</p>
+
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star"></span>
+  <span class="fa fa-star"></span>
+  <p><button id="">To contact</button></p>
+
+  
+        </div>
+
+        <div class="productlist">
+            <img src="pork'.jpg" alt="Denim Jeans" width="100%" height="50%">
+  <h1>Pork</h1><br>
+  <p class="price">&#8377;355 per kg </p>
+  <p>Fresh pork</p>
+  <span class="fa fa-sta checked"></span>
+  
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star"></span>
+  <span class="fa fa-star"></span>
+  
+  <p><button id="">To contact</button></p>
+
+        </div>
+
+        <div class="productlist">
+            <img src="chickenfeed.jpg" alt="Denim Jeans" width="100%" height="50%">
+  <h1>Chicken feed</h1><br>
+  <p class="price">&#8377;70 per kg </p>
+  <p>Fresh chicken feed.</p>
+  
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star"></span>
+  <span class="fa fa-star"></span>
+  <p><button id="">To contact</button></p>
+
+        </div>
+
+        <div class="productlist">
+            <img src="cowfeed.jpg" alt="Denim Jeans" width="100%" height="50%">
+  <h1>Cow feed</h1><br>
+  <p class="price">&#8377;125 per kg </p>
+  <p>Fresh cow feed.</p>
+
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star"></span>
+  <span class="fa fa-star"></span>
+  <p><button id="">To contact</button></p>
+
+        </div>
+        
+    </div>
+</body>
+</html>
