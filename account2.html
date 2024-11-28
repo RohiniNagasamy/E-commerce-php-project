@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         #top{
+        height: 30px;
+        width: 100%;
+        background-color: rgb(35, 35, 56);
+    }
+    .checked {
+  color: orange;
+}
+        body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+     
+    }
+        #top{
+        height: 30px;
+        width: 100%;
+        background-color: rgb(35, 35, 56);
+    }
+    .container{
+        position: relative;
+        top: 50px;
+        height: 700px;
+        overflow: scroll;
+        width: 90%;
+        left: 50px;
+        margin: 50px;
+        display: grid;
+  grid-template-columns: auto auto auto;
+  row-gap: 50px;
+  justify-content: space-around;
+  border-radius: 5px;
+       background-color: aliceblue;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
+
+    .productlist{
+        margin-top: 30px;
+        height: 450px;
+        width: 350px;
+        text-align: center;
+        border-radius: 5px;
+        background-color: #f9f9f9;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
+        button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  margin-top: 10px;
+
+  
+}
+p{
+    margin-bottom: 10px;
+  }
+    }
+
+    }
+    #na{
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
+        width: 60%;
+     position: relative;
+     left: 25%;
+     margin-top: 40px;
+    }
+    li{
+        display: inline-block;
+        margin: 15px;
+        a{
+            text-decoration: none;
+            color: green;
+        }
+    }
+    .mainbar{
+        height: 400px;
+        margin-left: 150px;
+        width: 80%;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
+        display: flex;
+        justify-content: space-around;
+        .left{
+            width: 45%;
+            height: 100%;
+            img{
+                height: 100%;
+                width: 100%;
+            }
+        }
+        .right{
+            width: 50%;
+        }
+       
+    }
+    .left{
+            width: 45%;
+            height: 100%;
+            img{
+                height: 100%;
+                width: 100%;
+            }
+        }
+        .right{
+            width: 50%;
+        }
+    </style>
+</head>
+<body>
+      <div id="top"></div>
+    <div id="na" class="nav-top">
+        <ul>
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="index.html#ab">About us</a>
+            </li>
+            <li>
+                <a href="index.html#pr">Products</a>
+            </li>
+            <li>
+                <a href="index.html#sc">Scheme</a>
+            </li>
+            
+            <li>
+                <a href="index.html#se">Services</a>
+            </li>
+            <li>
+                <a href="index.html#co">Contact us</a>
+            </li>
+            <li>
+                <a href="login.php">Log in</a>
+            </li>
+            <li>
+                <a href="proreg.html">Register</a>
+            </li>
+           
+            
+        </ul>
+    </div>
+    <div class="mainbar">
+        <div class="left">
+         <img src="flowe.png" alt="">
+
+        </div>
+        <div class="right">
+            <h1>Anu Tropical fruit garden</h1>
+            <p>The products are grown from our field.</p>
+            <H1>To contact</H1>
+            <p>Mobile no: 0123456789</p>
+            <p>Email:anugardens@gmail.com</p>
+            <p>Our products are naturally farmed using natural fertilizers.so,you feel free to buy our products without hesitation</p>
+        <a href="#pp" style="text-decoration: none;
+        font-size: 20px;
+        background-color: rgb(19, 250, 31);
+        padding: 15px;
+        border-radius: 10px;
+       
+        position: relative;
+        top: 10px;
+        ">Products</a>
+        
+        </div>
+    </div>
+    <h1 style="text-align: center; position: relative; top: 20px;">Products that are available</h1>
+    <div id="pp" class="container">
+        <div class="productlist">
+            <img src="poemegra.jpg" alt="Denim Jeans" width="100%" height="50%">
+  <h1>Pomegranate</h1>
+  <h3 class="price">&#8377;150 per kg </h3>
+  <p>Freshly grown Pomegranate.</p>
+  <span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star "></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+<p><button>To contact</button></p>
+
+        </div>
+
+        <div class="productlist">
+            <img src="blackgrape.jpg" alt="Denim Jeans" width="100%" height="50%">
+  <h1>Grapes</h1>
+  <h3 class="price">&#8377;140 per kg</h3>
+  <p>Freshly grown grapes.</p>
+ 
+  <span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+<p><button>To contact</button></p>
+
+
+        </div>
+
+        <div class="productlist">
+            <img src="guava.jpg" alt="Denim Jeans" width="100%" height="50%">
+  <h1>Guava</h1>
+  <h3 class="price">&#8377;55 per kg </h3>
+  <p>Freshly grown guavas.</p>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star"></span>
+  <span class="fa fa-star"></span>
+  <p><button>To contact</button></p>
+
+  
+        </div>
+
+        <div class="productlist">
+            <img src="watermelon.jpg" alt="Denim Jeans" width="100%" height="50%">
+  <h1>Watermelon</h1>
+  <h3 class="price">&#8377;130 per kg </h3>
+  <p>Freshly grown watermelon</p>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star"></span>
+  <span class="fa fa-star"></span>
+  
+  <p><button>To contact</button></p>
+
+        </div>
+
+        <div class="productlist">
+            <img src="jp.jpg" alt="Denim Jeans" width="100%" height="50%">
+  <h1>Jackfruit</h1>
+  <h3 class="price">&#8377;70 per fruitt </h3>
+  <p>Freshly grown Jackfruits.</p>
+  
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star"></span>
+  <span class="fa fa-star"></span>
+  <p><button>To contact</button></p>
+
+        </div>
+
+        <div class="productlist">
+            <img src="pineapp.jpg" alt="Denim Jeans" width="100%" height="50%">
+  <h1>Pineapple</h1>
+  <h3 class="price">&#8377;25 per kg </h3>
+  <p>Freshly grown pineapples.</p>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star"></span>
+  <span class="fa fa-star"></span>
+  <p><button>To contact</button></p>
+
+        </div>
+        
+       
+        
+
+    </div>
+    <div class="repot" style="height: 300px; width: 100%; position: relative;
+    top: 100px;
+    display: flex;
+    justify-content: space-between;
+    color: #f9f9f9;
+    background-color: rgb(3, 3, 49);
+   
+    ">
+        <div class="left">
+            
+            <h1>terms and condition</h1><br>
+            <p>If any store found to be increases a money more than of actual price in a website then,we will take severe actions.</p>
+            <p>If a product receives in a damage condition its all upto the seller and the customer.</p>
+            <p>Any queries ,contact us freshproduct</p>
+            
+        </div>
+        <div style=" border-left: 3px solid rgb(253, 253, 253); text-align: center;" class="right">
+            <h1>Report</h1>
+            
+            <textarea name="" id="" cols="30" rows="8"></textarea>
+            <input type="submit">
+        </div>
+    </div>
+</body>
+</html>
